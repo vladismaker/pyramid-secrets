@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_pyra_mid">#FF000000</color>
+    <color name="white_pyra_mid">#FFFFFFFF</color>
+    <color name="text_pyra_mid">#451B03</color>
+    <color name="status_pyra_mid">#002A44</color>
+</resources>

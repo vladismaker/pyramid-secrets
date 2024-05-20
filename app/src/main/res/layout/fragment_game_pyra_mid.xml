@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GamePyraMidFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_main_pyra_mid"
+        android:importantForAccessibility="no"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="100dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/table_pyra_mid"
+            android:importantForAccessibility="no"/>
+        <ImageView
+            android:id="@+id/card_random_1"
+            android:layout_width="60dp"
+            android:layout_height="84dp"
+            android:src="@drawable/cover_pyra_mid"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="60dp"
+            android:importantForAccessibility="no"/>
+        <ImageView
+            android:id="@+id/card_random_2"
+            android:layout_width="60dp"
+            android:layout_height="84dp"
+            android:src="@drawable/cover_pyra_mid"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="60dp"
+            android:importantForAccessibility="no"/>
+
+        <ImageView
+            android:id="@+id/card_pyra_mid_my_1"
+            android:layout_width="60dp"
+            android:layout_height="84dp"
+            android:src="@drawable/cover_pyra_mid"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="70dp"
+            android:importantForAccessibility="no"/>
+        <ImageView
+            android:id="@+id/card_pyra_mid_my_2"
+            android:layout_width="60dp"
+            android:layout_height="84dp"
+            android:src="@drawable/cover_pyra_mid"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginStart="45dp"
+            android:layout_marginBottom="70dp"
+            android:importantForAccessibility="no"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/btn_pyra_mid_settings"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/btn_settings_pyra_mid"
+        android:layout_margin="10dp"
+        android:importantForAccessibility="no"/>
+    <ImageView
+        android:id="@+id/btn_menu_pyra_mid"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/btn_menu_pyra_mid"
+        android:layout_margin="10dp"
+        android:layout_gravity="end"
+        android:importantForAccessibility="no"/>
+
+    <ImageView
+        android:id="@+id/btn_pyra_mid_x_2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/btn_x2_pyra_mid"
+        android:layout_marginStart="30dp"
+        android:layout_gravity="bottom"
+        android:importantForAccessibility="no"
+        android:layout_marginBottom="100dp"/>
+    <ImageView
+        android:id="@+id/btn_pass_pyra_mid"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/btn_pass_pyra_mid"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="end|bottom"
+        android:importantForAccessibility="no"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:id="@+id/edit_pyra_mid_bet"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/edit_bet_pyra_mid"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:hint="Enter bet"
+        android:textColor="@color/text_pyra_mid"
+        android:textColorHint="#6C6C6C"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingHorizontal="15dp"
+        android:inputType="number"
+        android:ellipsize="end"
+        android:importantForAutofill="no" />
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:importantForAccessibility="no"/>
+
+    <ImageView
+        android:id="@+id/btn_pyra_mid_exit"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/btn_exit_pyra_mid"
+        android:importantForAccessibility="no"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:visibility="gone"/>
+</FrameLayout>

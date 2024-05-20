@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.PyramidSecrets" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/status_pyra_mid</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.PyramidSecrets" parent="Base.Theme.PyramidSecrets" />
+</resources>

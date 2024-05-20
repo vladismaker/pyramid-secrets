@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScorePyraMidFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_main_pyra_mid"
+        android:importantForAccessibility="no"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="UselessParent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/title_score_pyra_mid"
+                android:importantForAccessibility="no"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:src="@drawable/text_score_pyra_mid"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:importantForAccessibility="no"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/text_score"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/text_pyra_mid"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/score_panel_pyra_mid"
+            android:layout_marginHorizontal="20dp"/>
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/btn_back_pyra_mid"
+            android:importantForAccessibility="no"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+</FrameLayout>
